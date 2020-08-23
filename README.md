@@ -1,5 +1,21 @@
 ## Lobster API
 
+Uses Java, Spring + Spring Boot, and Hibernate. Tested with the H2 database.
+
+Main code of interest is here:  
+https://github.com/2kays/osu-lobster-api/tree/master/src/main/java/com/github/_2kays/osu/lobsterapi
+
+Controllers (API spec):  
+https://github.com/2kays/osu-lobster-api/tree/master/src/main/java/com/github/_2kays/osu/lobsterapi/controller
+
+Services (DB access):  
+https://github.com/2kays/osu-lobster-api/tree/master/src/main/java/com/github/_2kays/osu/lobsterapi/service
+
+Model (Lobster + subtype definitions):  
+https://github.com/2kays/osu-lobster-api/tree/master/src/main/java/com/github/_2kays/osu/lobsterapi/model
+
+---
+
 Setup:
 
 `./mvnw spring-boot:run` or `mvnw.cmd sprint-boot:run`
