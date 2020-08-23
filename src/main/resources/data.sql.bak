@@ -1,0 +1,2 @@
+insert into LOBSTER (id, name, type) values (1, 'Reef Lobster', 'clawed');
+insert into LOBSTER (id, name, type) values (2, 'Rock Lobster', 'spiny');
